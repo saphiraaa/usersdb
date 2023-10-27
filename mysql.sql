@@ -10,11 +10,11 @@ CREATE TABLE users (
     phone_number VARCHAR(20),
     user_type ENUM('admin', 'user', 'guest'),
     account_status ENUM('active', 'inactive', 'suspended'),
-    last_login_date DATETIME,
     registration_ip VARCHAR(45),
     sex ENUM('male', 'female', 'other'),
     nationality VARCHAR(255),
     date_of_birth DATE,
+    last_login_date DATETIME,
     date_registered TIMESTAMP DEFAULT CURRENT_TIMESTAMP
 );
 
