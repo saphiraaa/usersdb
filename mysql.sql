@@ -8,7 +8,6 @@ CREATE TABLE users (
     last_name VARCHAR(255),
     age INT,
     phone_number VARCHAR(20),
-    profile_picture VARCHAR(255),
     user_type ENUM('admin', 'user', 'guest'),
     account_status ENUM('active', 'inactive', 'suspended'),
     last_login_date DATETIME,
