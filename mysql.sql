@@ -14,7 +14,6 @@ CREATE TABLE users (
     sex ENUM('male', 'female', 'other'),
     nationality VARCHAR(255),
     date_of_birth DATE,
-    last_login_date DATETIME,
     date_registered TIMESTAMP DEFAULT CURRENT_TIMESTAMP
 );
 
